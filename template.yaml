@@ -46,7 +46,7 @@ spec:
   steps:
     - id: template
       name: Fetch Skeleton + Template
-      action: fetch:cookiecutter
+      action: fetch:plain
       input:
         url: https://github.com/bosch/swdc-iotea-talent-template-nodejs
         copyWithoutRender:
